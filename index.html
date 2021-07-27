@@ -5,63 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <header>
-        <nav id="navbar">
-            <h1 class="logo"><a href="index.html">TEMIDAYO OYELAMI</a></h1>
-            <ul>
-                <li><a class="current" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <a href="index.html" class="logo">TEMMY</a>
+            <ul class="nav-links">
+                
+                <li class="nav-item">
+                    <a class="current" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#project">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-form">Contact</a>
+                </li>
             </ul>
-        </nav>
-
-    <div id="welcome">
-        <div class="container">
-            <div class="welcome-content">
-                <h1 class="first-text">Hello,</h1>
-                <h1 class="intro">I'm <span class="primary-text">Temidayo Oyelami</span></h1>
-                <h3 class="lead">A front-end web developer</h3>      
-
-            <div id="skills">
-                <div class="skill-sets">
-                    <h1 class="skill-heading">SKILLS<span>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JAVASCRIPT</li>
-                            <li>GIT</li>
-                        </ul>
-                    </span></h1>
-                </div>
-            </div>
         
+    </header>
 
-        <a class="btn" href="contact.html">Contact Me</a>
+    <section id="welcome"> 
+        <div class="welcome-content">
+            <h1 class="first-intro">Hello,</h1>
+            <h1 class="intro">I'm 
+                <span>Temidayo Oyelami</span>
+            </h1>
+            <h3 class="lead">A front-end web developer</h3>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="content1 grid">
+            
+                <p class="primary">Hello, my name is Temidayo Oyelami.</p>
+                <p>I am a Front-End Developer based in Nigeria. I enjoy turning designs into websites. 
+                    I have passion for creating websites and web applications.</p>
+                <p>I am a recent graduate of Computer Engineering.</p>
+                <p>Feel free to check out my latest <a href="#project">projects</a> and <a href="#contact-form">reach out</a> out to me.</p>
+            </div>
+    
+            <div class="content2 grid">
+                <img src="./images/temidayo.jpg" alt="picture">
             </div>
         </div>
-    </div>
+        
+    </section>
 
-    
-</header>
+    <section id="skills">
+        <div class="skills-content">
+            <h1 class="skill-heading">SKILLS</h1>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>GIT</li>
+                </ul>
+        </div>
+    </section>
 
-<footer id="main-footer">
-    <div class="footer-left">
-        <p class="copyright">&copy; 2021 Temidayo Oyelami.</p>
-    </div>
-    <div class="footer-icons">
-        <ul class="icons">
-            <li><a href="https://www.facebook.com/oyelami.temidayo.3" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://github.com/Temidayo99" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://twitter.com/themmyjoy" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        </ul>
-    </div>
-    
-</footer>
+    <section id="project">
+
+        <h1 class="project-heading">Recent Works</h1>
+
+        <div class="row row1">
+            <div class="column">
+                <h4>
+                    <a href="https://temidayo99.github.io/Insure-Landing-Page/" target="_blank">Landing Page</a>
+                </h4>
+                <img src="./images/Insure Landing Page.png" alt="Landing page">
+            </div>
+        
+            <div class="column">
+                <h4>
+                    <a href="https://my-study-pal-2d5luvi9t.vercel.app/" target="_blank">Study App</a>
+                </h4>
+                <img src="./images/My StudyPal.png" alt="Study App">
+            </div>            
+        </div>
+
+        <div class="row row2">
+            <div class="column">
+                <h4>
+                    <a href="https://tender-fermat-5a86e6.netlify.app/" target="_blank">Profile card</a>
+                </h4>
+                <img src="./images/profile card.png" alt="Profile card">
+            </div>
+        
+            <div class="column">
+                <h4>
+                    <a href="https://temidayo99.github.io/Stats-preview-card-component/" target="_blank">Preview card</a>
+                </h4>
+                <img src="./images/stats preview card.png" alt="Preview card">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="memory">
+        <h1>Memories</h1>
+
+        <div class="mansory-container">
+            <div class="a">
+                <img src="images/img1.jpg">
+            </div>
+            <div class="b">
+                <img src="images/img2.jpg">
+            </div>
+            <div class="e">
+                <img src="images/img5.jpg">
+            </div>
+            <div class="i">
+                <img src="images/img7.jpeg">
+            </div>
+            <div class="f">
+                <img src="images/img4.jpg">
+            </div>
+            <div class="d">
+                <img src="images/img3.jpg">
+            </div>
+            <div class="h">
+                <img src="images/img6.jpg">
+            </div>
+            <div class="j">
+                <img src="images/img8.jpeg">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <div class="contact-div">
+            <h1 class="l-heading">Get in touch</h1>
+            <p>Please fill up the form below to get in touch with me 
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="8"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+    </section>
+
+    <footer id="main-footer">
+        <div class="footer-left">
+            <p class="copyright">&copy; 2021 Temidayo Oyelami.</p>
+        </div>
+        <div class="footer-icons">
+            <ul class="icons">
+                <li class="icon-item">
+                    <a href="https://www.facebook.com/oyelami.temidayo.3" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="icon-item">
+                    <a href="https://github.com/Temidayo99" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+                <li class="icon-item">
+                    <a href="https://twitter.com/themmyjoy" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>     
+    </footer>
        
 </body>
 </html>
