@@ -44,6 +44,13 @@
 }
 
 @media (max-width: 500px) {
+    #memory{
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    #memory h1{
+        font-size: 35px;
+    }
     .mansory-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
