@@ -45,7 +45,7 @@
 
 @media (max-width: 500px) {
     #memory{
-        margin-top: 20px;
+        margin: 20px 20px 50px 20px;
         padding: 0 10px;
     }
     #memory h1{

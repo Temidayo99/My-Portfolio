@@ -101,30 +101,6 @@ header a{
     color: #fff; 
 }
 
-/* Contact form */
-#contact-form{
-    margin: 40px 30%;
-}
-#contact-form h1{
-    font-size: 40px;
-}
-#contact-form p{
-    padding-bottom: 20px;
-}
-#contact-form .form-group{
-    margin-bottom: 10px;
-}
-#contact-form label{
-    display: block;
-    margin-bottom: 5px;
-}
-#contact-form input,
-#contact-form textarea{
-    width: 100%;
-    padding: 10px;
-    border: 1px #ddd solid;
-}
-
 /* footer */
 #main-footer{
     background-color: rgb(0,0,0);
@@ -234,6 +210,14 @@ header a{
     .btn{
         margin-top: 25px;
         padding: 13px 20px;
+    }
+
+    /* footer */
+    .copyright{
+        font-size: 10px;
+    }
+    .icon-item a {
+        padding: 0px 5px;
     }
 
 }
