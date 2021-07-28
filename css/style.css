@@ -165,15 +165,13 @@ header a{
     transform: skew(25);
     transform: scale(1.5);
 }
-.fa-facebook {
-    color: #00FFFF;
-}
-.fa-github {
-    color: #00FFFF;
-}
+.fa-facebook,
+.fa-linkedin,
+.fa-github,
 .fa-twitter {
     color: #00FFFF;
 }
+
 .copyright{
     font-size: 13px;
     color: rgb(71, 71, 71);
