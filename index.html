@@ -14,6 +14,7 @@
 </head>
 <body>
     
+    <main>
     <!-- Navigation Bar -->
     <header>
         <a href="index.html" class="logo desktop">TEMMY</a>
@@ -50,11 +51,14 @@
     <!-- Intro Section -->
     <section id="welcome"> 
         <div class="welcome-content">
+        
             <h1 class="first-intro">Hello,</h1>
             <h1 class="intro">I'm 
                 <span>Temidayo Oyelami</span>
             </h1>
+            
             <h3 class="lead">A front-end web developer</h3>
+            
             <a href="#contact-form" class="btn">Contact Me</a>
             <a href="/Resume/OYELAMI TEMIDAYO RESUME.pdf" class="download" download>
                 Download Resume
@@ -70,22 +74,23 @@
 
     <!-- About Section -->
     <section id="about">
-        <h1>About Me</h1>
-        <div class="about-content">
-            
-            <div class="content1 grid">
-                <p class="primary">Hello, my name is Temidayo Oyelami.</p>
-                <p>I am a Front-End Developer based in Nigeria. I enjoy turning designs into websites. 
-                    I have passion for creating websites and web applications.</p>
-                <p>I am a recent graduate of Computer Engineering.</p>
-                <p>Feel free to check out my latest <a href="#project">projects</a> and <a href="#contact-form">reach out</a> out to me.</p>
-            </div>
-    
-            <div class="content2 grid">
-                <img src="./images/temidayo.jpg" alt="picture">
-            </div>
-        </div>
+        <div class="about">
+            <h1>About Me</h1>
         
+            <div class="about-content">
+                <div class="content1 grid">
+                    <p class="primary">Hello, my name is Temidayo Oyelami.</p>
+                    <p>I am a Front-End Developer based in Nigeria. I enjoy turning designs into websites. 
+                        I have passion for creating websites and web applications.</p>
+                    <p>I am a recent graduate of Computer Engineering.</p>
+                    <p>Feel free to check out my latest <a href="#project">projects</a> and <a href="#contact-form">reach out</a> out to me.</p>
+                </div>
+        
+                <div class="content2 grid">
+                    <img src="./images/temidayo.jpg" alt="picture">
+                </div>
+            </div>
+        </div>    
     </section>
 
     <!-- Skills Section -->
@@ -103,40 +108,42 @@
 
     <!-- Projects Section -->
     <section id="project">
+        <div class="project">
 
-        <h1 class="project-heading">Recent Works</h1>
+            <h1 class="project-heading">Recent Works</h1>
 
-        <div class="row row1">
-            <div class="column">
-                <h4>
-                    <a href="https://temidayo99.github.io/Insure-Landing-Page/" target="_blank">Landing Page</a>
-                </h4>
-                <img src="./images/Insure Landing Page.png" alt="Landing page">
-            </div>
-        
-            <div class="column">
-                <h4>
-                    <a href="https://my-study-pal-2d5luvi9t.vercel.app/" target="_blank">Study App</a>
-                </h4>
-                <img src="./images/My StudyPal.png" alt="Study App">
-            </div>            
-        </div>
-
-        <div class="row row2">
-            <div class="column">
-                <h4>
-                    <a href="https://tender-fermat-5a86e6.netlify.app/" target="_blank">Profile card</a>
-                </h4>
-                <img src="./images/profile card.png" alt="Profile card">
-            </div>
-        
-            <div class="column">
-                <h4>
-                    <a href="https://temidayo99.github.io/Stats-preview-card-component/" target="_blank">Preview card</a>
-                </h4>
-                <img src="./images/stats preview card.png" alt="Preview card">
-            </div>
+            <div class="row row1">
+                <div class="column">
+                    <h4>
+                        <a href="https://temidayo99.github.io/Insure-Landing-Page/" target="_blank">Landing Page</a>
+                    </h4>
+                    <img src="./images/Insure Landing Page.png" alt="Landing page">
+                </div>
             
+                <div class="column">
+                    <h4>
+                        <a href="https://my-study-pal-2d5luvi9t.vercel.app/" target="_blank">Study App</a>
+                    </h4>
+                    <img src="./images/My StudyPal.png" alt="Study App">
+                </div>            
+            </div>
+
+            <div class="row row2">
+                <div class="column">
+                    <h4>
+                        <a href="https://tender-fermat-5a86e6.netlify.app/" target="_blank">Profile card</a>
+                    </h4>
+                    <img src="./images/profile card.png" alt="Profile card">
+                </div>
+            
+                <div class="column">
+                    <h4>
+                        <a href="https://temidayo99.github.io/Stats-preview-card-component/" target="_blank">Preview card</a>
+                    </h4>
+                    <img src="./images/stats preview card.png" alt="Preview card">
+                </div>
+                
+            </div>
         </div>
     </section>
 
@@ -198,7 +205,11 @@
     </section>
 
     <!-- Bottom to Top Button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+    <div class="back-to-top-wrapper">
+        <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">🔝</a>
+      </div>
 
     <!-- Footer -->
     <footer id="main-footer">
@@ -225,6 +236,7 @@
             </ul>
         </div>     
     </footer>
+    </main>
 
     
     <script src="js/script.js"></script>

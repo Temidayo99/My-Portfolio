@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Reset */
 *{
     margin: 0;
@@ -7,7 +8,8 @@
 
 /* Main Styling */
 html,body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     scroll-behavior: smooth;
     /* overflow-x: hidden; */
 }
@@ -54,8 +56,8 @@ header a{
 
 /* Welcome */
 #welcome{
-    margin-top: 71px;
-    height: 88vh;
+    margin-top: 69px;
+    height: 89vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +140,21 @@ header a{
 #myBtn:hover{
     background: #194646;
 }
+
+.back-to-top-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #d6e3f0;
+    /* emoji don't behave like regular fonts
+       so this helped position it correctly */
+    padding: 0.25rem;
+  }
 
 /* footer */
 #main-footer{
@@ -235,6 +252,7 @@ header a{
         height: 87vh;
         width: 100%;
     }
+
     .first-intro{
         font-size: 3em;
     }

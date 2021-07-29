@@ -1,6 +1,9 @@
 /* Contact form */
+#contact-form{
+    margin: 30px 0px 60px 0px;
+}
 .contact-div{
-    margin: 40px 30%;
+    padding: 70px 30% 50px 30%;
 }
 #contact-form h1{
     font-size: 40px;
@@ -20,16 +23,17 @@
     width: 100%;
     padding: 10px;
     border: 1px #ddd solid;
+    outline: none;
 }
 
 @media (max-width: 500px) {
     #contact-form{
         background-color: #000;
-        padding: 30px 0;
+        margin: 30px 0 0 0;
     }
     .contact-div{
         color: #fff;
-        margin: 40px 10%;
+        padding: 30px 10%;
     }
     #contact-form input,
     #contact-form textarea{
