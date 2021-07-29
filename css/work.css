@@ -64,7 +64,7 @@
 @media(max-width: 500px){
     /* skills-section */
     #skills{
-        margin: 10px 0;
+        margin: 20px 0;
     }
     .skill-heading{
         padding: 5px 0px;
@@ -74,7 +74,7 @@
         flex-direction: column; 
     }
     #skills ul{
-        padding: 1rem 2rem;
+        padding: 2rem 2rem;
     }
     #skills ul li{
         font-weight: bold;

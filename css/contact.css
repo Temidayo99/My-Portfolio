@@ -37,5 +37,19 @@
         padding: 10px;
         background-color: rgb(34, 34, 34);
         outline: none;
+        border:rgb(34, 34, 34)
     }
+    #contact-form h1{
+        font-size: 45px;
+    }
+    input,textarea{
+        caret-color: #fff;
+    }
+    #contact-form p{
+        font-size: 20px;
+    }
+    #contact-form label{
+        font-size: 20px;
+    }
+
 }
