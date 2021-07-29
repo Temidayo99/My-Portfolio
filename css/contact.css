@@ -26,14 +26,15 @@
     outline: none;
 }
 
+/* Mobile Styling */
 @media (max-width: 500px) {
     #contact-form{
         background-color: #000;
-        margin: 30px 0 0 0;
+        margin: 100px 0 0 0;
     }
     .contact-div{
         color: #fff;
-        padding: 30px 10%;
+        padding: 50px 10%;
     }
     #contact-form input,
     #contact-form textarea{

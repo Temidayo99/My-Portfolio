@@ -21,6 +21,10 @@ li{
     list-style: none;
 }
 
+#bar{
+    display: none;
+}
+
 /* Nav Bar */
 header{
     position: fixed;
@@ -123,7 +127,7 @@ header a{
 
 /* Bottom to Top button */
 #myBtn {
-    display: none;
+    /* display: none; */
     position: fixed;
     bottom: 60px;
     right: 30px;
@@ -137,24 +141,6 @@ header a{
     padding: 15px;
     border-radius: 4px;
 }
-#myBtn:hover{
-    background: #194646;
-}
-
-.back-to-top-link {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 2rem;
-    line-height: 3rem;
-    text-align: center;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background-color: #d6e3f0;
-    /* emoji don't behave like regular fonts
-       so this helped position it correctly */
-    padding: 0.25rem;
-  }
 
 /* footer */
 #main-footer{
@@ -207,7 +193,7 @@ header a{
 }
 
 
-
+/* Mobile Styling */
 @media (max-width: 500px) { 
     /*nav bar */
     .desktop{
@@ -223,6 +209,11 @@ header a{
         align-items: center;
         width: 100%;
         cursor: pointer;
+    }
+    #bar{
+        display: flex;
+        padding: 7.5px 10px 7.5px 0;
+        font-size: 20px;
     }
     .nav-links li a{
         display: inline-block;
@@ -248,8 +239,8 @@ header a{
         display: block;
     }
     #welcome{
-        margin-top: 85px;
-        height: 87vh;
+        margin-top: 54px;
+        height: 95vh;
         width: 100%;
     }
 

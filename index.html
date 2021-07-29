@@ -18,32 +18,35 @@
     <!-- Navigation Bar -->
     <header>
         <a href="index.html" class="logo desktop">TEMMY</a>
-        <ul class="nav-links">
+        <ul class="nav-links active">
             <li class="logo mobile">
-                <a href="index.html" onclick="toggleMenu()">TEMMY</a>
+                <a href="#index.html">TEMMY</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item" id="item1">
                 <a class="current" href="index.html" onclick="toggleMenu()">Home</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item" id="item2">
                 <a href="#about" onclick="toggleMenu()">About</a>
             </li>
 
-            <li class="nav-item">
-                <a href="#project" onclick="toggleMenu()">Work</a>
+            <li class="nav-item" id="item3">
+                <a href="#project" onclick="toggleMenu()">Projects</a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item" id="item4">
                 <a href="#contact-form" onclick="toggleMenu()">Contact</a>
             </li>
 
-            <li class="toggle mobile" >
-                <a href="#" id="bar">
+            <!-- <li id >
+                <a href="#">
                     <i class="fa fa-bars"></i>
                 </a>
-            </li>
+            </li> -->
+            <a href="#" id="bar" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
         </ul>
         
     </header>
@@ -204,12 +207,12 @@
         </div>
     </section>
 
-    <!-- Bottom to Top Button -->
-    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+    
+    <a href="#top"><button id="myBtn" title="Go to top">Top</button></a>
 
-    <div class="back-to-top-wrapper">
-        <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">🔝</a>
-      </div>
+    
+
+    </main>
 
     <!-- Footer -->
     <footer id="main-footer">
@@ -236,7 +239,6 @@
             </ul>
         </div>     
     </footer>
-    </main>
 
     
     <script src="js/script.js"></script>
