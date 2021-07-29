@@ -98,19 +98,25 @@ header a{
     text-transform: uppercase;
     border-radius: 5px;
 }
+.btn:hover{
+    background: #194646;
+    color: #fff; 
+}
 .download{
     background: transparent;
     border: 1px solid #1a9494;
-    padding: 13px 15px;
+    padding: 13px 5px;
     color: #1a9494;
     margin-left: 15px;
     font-weight: bold;
     font-size: 18px;
     border-radius: 5px;
 }
-.btn:hover{
-    background: #194646;
-    color: #fff; 
+.download i{
+    padding-left: 0px;
+}
+.arrow{
+    margin-top: 40px;
 }
 
 /* Bottom to Top button */
@@ -241,7 +247,7 @@ header a{
     }
     .download{
         display: block;
-        width: 60%;
+        width: 65%;
         padding: 10px 5px;
         margin: 20px 0px 0px 0px ;
     }

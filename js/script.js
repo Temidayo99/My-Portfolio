@@ -1,5 +1,10 @@
+
+
+// NavBar Toggle
+
 const toggle = document.querySelector(".toggle");
 const menu = document.querySelector(".nav-links");
+const bar = document.getElementById("#bar");
  
 /* Toggle mobile menu */
 function toggleMenu() {
@@ -12,12 +17,17 @@ function toggleMenu() {
         menu.classList.add("active");
          
         // adds the close (x) icon
-        toggle.querySelector("a").innerHTML = "<i class=’fa fa-close’></i>";
+        toggle.querySelector("a").innerHTML = "<i class=’fa fa-times’></i>";
+        bar.style.color = "white"
+        
     }
 }
  
 /* Event Listener */
 toggle.addEventListener("click", toggleMenu, false);
+
+
+/*Bottom To Top*/
 
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -38,3 +48,5 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+smoothScroll.init();
